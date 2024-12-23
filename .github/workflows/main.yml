@@ -12,7 +12,7 @@ on:
       environment:
         required: true
         description: "Deployment environment"
-        type: environment
+        type: string
       pythonVersion:
         required: false
         default: "3.8"
